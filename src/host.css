@@ -1,0 +1,196 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    overflow-x: hidden;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.host_top{ 
+    width: 1519px;
+    height: 450px;
+    display: flex;
+}
+.host_top_left{
+    width:759px;
+    height: 450px; 
+    background-color: black;
+    
+}
+.host_header{
+    width: 1519px;
+    height: 72px;
+    position: fixed;
+    display: none;
+}
+.host_header_chainge{
+    width: 1519px;
+    height: 72px;
+    position: fixed;
+    display: block;
+    background-color: white;
+}
+.host_top_right{
+    width: 759px;
+    height: 450px;  
+   
+}
+.host_top_logo{
+    margin-top: 50px;
+    margin-left: 55px;
+}
+.host_top_item{
+    width: 615px;
+    height: 450px;
+    margin: 0 auto;
+}
+.host_main{
+    width: 1519px;
+    height: auto;
+    
+}
+.host_main_item1{
+    width: 100%;
+    height: 1024px;
+    /* border: 1px solid red; */
+}
+.host_main_item1_div{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1420px;
+    height: 120px;
+    
+    margin-top: 50px;
+}
+.host_main_flex{
+    width: 324px;
+    height: 120px;   
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+.main_bottom{
+    width: 1420px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+.main_bottom button{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid black;
+    color: #222222;
+    font-weight: bold;
+}
+
+
+.host_main2{
+    width: 1519px;
+    height: 1604px;   
+}
+.host_main2_title{
+    width: 1423px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.host_main_slide{
+    width: 1519px;
+    height: 721px;
+    border: 1px solid black;
+    margin-top: 80px;
+    display: flex;
+    
+}
+.slide_item{
+    width: 464px;
+    border:1px solid red;
+}
+.slide_item2{
+    width: 464px;
+    border:1px solid red;
+}
+.slide_item3{
+    width: 464px;
+    border:1px solid red;
+}
+.slide_item4{
+    width: 464px;
+    border:1px solid red;
+}
+.slide_item5{
+    width: 464px;
+    border:1px solid red;
+}
+.slide_item6{
+    width: 464px;
+    border:1px solid red;
+}
+
+.host_main2_item{
+    width: 1420px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    background-color: #ff385c;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.host_footer{
+    width:1519px;
+    height: 3000px;
+    border: 1px solid black;
+}
